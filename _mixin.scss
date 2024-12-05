@@ -1,0 +1,6 @@
+@mixin flexcommon($gap, $space){
+    display: flex;
+        gap: $gap;
+        justify-content: center;
+        letter-spacing:$space;
+}

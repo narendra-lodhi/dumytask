@@ -1,0 +1,49 @@
+// ---mixin---
+@import "./mixin";
+
+// ---Var--
+@import "./var";
+
+
+.header {
+    background:$bg-color ;
+    padding: 20px 0;
+
+    .list {
+    
+     @include flexcommon(30px, 3px);
+        li {
+            list-style: none;
+            color: #fff;
+            font-size: 10px + 10px;
+
+            &:hover {
+                color: rgb(47, 255, 0);
+                cursor: pointer;
+            }
+            &:first-child{
+                       color: $list-color;
+
+                &:hover{
+                    color: rgb(47, 255, 0);
+  
+                }
+            }
+        }
+    }
+}
+
+.header2{
+    background:$bg-color ;
+    padding: 10px 0;
+    margin-top: 10px;
+
+
+    .lists{
+        @include flexcommon(50px, 2px);
+        color: $list-color;
+    }
+}
+h2{
+    background-color: aqua;
+}

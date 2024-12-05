@@ -1,0 +1,38 @@
+.header {
+  background: rgb(8, 3, 73);
+  padding: 20px 0;
+}
+.header .list {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  letter-spacing: 3px;
+}
+.header .list li {
+  list-style: none;
+  color: #fff;
+  font-size: 20px;
+}
+.header .list li:hover {
+  color: rgb(47, 255, 0);
+  cursor: pointer;
+}
+.header .list li:first-child {
+  color: rgb(31, 198, 19);
+}
+.header .list li:first-child:hover {
+  color: rgb(47, 255, 0);
+}
+
+.header2 {
+  background: rgb(8, 3, 73);
+  padding: 10px 0;
+  margin-top: 10px;
+}
+.header2 .lists {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  letter-spacing: 2px;
+  color: rgb(31, 198, 19);
+}/*# sourceMappingURL=main.css.map */
